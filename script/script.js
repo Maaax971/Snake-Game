@@ -72,21 +72,21 @@ function generateFood() {
 function loadImages() {
 
     foodImage = new Image();
-    foodImage.src = "/img/apple.png";
+    foodImage.src = "img/apple.png";
 
     snakeHeadImgs = [];
     snakeHeadImgs[0] = new Image();
-    snakeHeadImgs[0].src = "/img/headSnakeR.png";
+    snakeHeadImgs[0].src = "img/headSnakeR.png";
     snakeHeadImgs[1] = new Image();
-    snakeHeadImgs[1].src = "/img/headSnakeD.png";
+    snakeHeadImgs[1].src = "img/headSnakeD.png";
     snakeHeadImgs[2] = new Image();
-    snakeHeadImgs[2].src = "/img/headSnakeL.png";
+    snakeHeadImgs[2].src = "img/headSnakeL.png";
     snakeHeadImgs[3] = new Image();
-    snakeHeadImgs[3].src = "/img/headSnakeU.png";
+    snakeHeadImgs[3].src = "img/headSnakeU.png";
     
     
     snakeTailImg = new Image();
-    snakeTailImg.src = "/img/tailSnake.png";
+    snakeTailImg.src = "img/tailSnake.png";
 
     snakeHeadImgs[0].onload();
     snakeTailImg.onload();
