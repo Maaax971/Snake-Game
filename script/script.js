@@ -116,7 +116,7 @@ function draw() {
   ctx.drawImage(snakeHeadImgs[snakeHeadImgsRotat], snake[0].x * gridSize, snake[0].y * gridSize, gridSize, gridSize);
   
     for (let i = 1; i < snake.length - 1; i++) {
-      ctx.fillStyle = "lime";
+      ctx.fillStyle = '#3e702e';
       ctx.fillRect(
           snake[i].x * gridSize,
           snake[i].y * gridSize,
